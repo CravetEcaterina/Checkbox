@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         M = (CheckBox)findViewById(R.id.CheckBox_M);
         F = (CheckBox)findViewById(R.id.CheckBox_F);
+        rootView = (View) findViewById(R.id.backgroundLayout);
     }
     public void on_M_Checked(View view) {
         CheckBox checkBox = (CheckBox) view;
